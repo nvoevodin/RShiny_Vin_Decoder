@@ -1,0 +1,12 @@
+name: decoder
+title: decoder
+username:
+account: tlcanalytics
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1278824
+bundleId: 3001557
+url: https://tlcanalytics.shinyapps.io/decoder/
+when: 1586650012.88769
+asMultiple: FALSE
+asStatic: FALSE

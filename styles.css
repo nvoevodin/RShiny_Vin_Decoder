@@ -1,0 +1,319 @@
+
+  
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
+  
+  
+  
+  /*//////////////////////////////////////////////////////////////
+  //BACKGROUND*/
+                               
+body {
+
+    background-color: #dff2f9;
+}
+  
+
+  /*//////////////////////////////////////////////////////////////////////////////////////////////////
+  //MAP BOX*/
+ 
+
+  .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+      border: 2px solid rgba(0, 0, 0, 0);
+      background-clip: padding-box;
+      background: #e9f5f5c9;
+  }
+  
+  .leaflet-container {
+      background: #ddd0;
+      outline: 0;
+  }
+  
+.box.box-solid.box-warning>.box-header {
+    color: #fff;
+    border: 1px solid #f39c1200;
+    background: #00ffff00;
+    background-color: #f39c1200;
+}
+
+.box.box-solid.box-warning {
+    border: 1px solid #f39c1200;
+    background: #00ffff00;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+}
+  
+  
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background: #465d5500;
+    color: #467373;
+    font-size: 18px;
+}
+
+
+.small-box>.inner {
+    padding: 20px;
+    color: black;
+}
+
+.box.box-solid.box-info>.box-header {
+    color: #fff;
+    background: #00c0ef00;
+    background-color: #00c0ef00;
+
+}
+
+.box.box-solid.box-info {
+    border: 1px solid #00c0ef3d;
+    width: 35%;
+    margin: auto;
+    margin-top: 7%;
+    
+}
+
+#submit,#download1{
+
+    width: 10%;
+    margin-top: 2%;
+    margin-left: 45%;
+    margin-right: 45%;
+
+}
+
+#submit1,#submit2{
+
+    width: 10%;
+    margin-bottom: 2%;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 10px;
+
+}
+
+
+
+div.box-body .shiny-input-container {
+    margin: auto;
+    width: 25%;
+}
+
+@media (max-width: 700px){
+
+div.box-body .shiny-input-container {
+    margin: auto;
+    width: 80%;
+}
+
+#submit,#submit1, #download1{
+
+    width: 26%;
+    margin-top: 3%;
+    margin-left: 37%;
+    margin-right: 37%;
+}
+}
+
+.box.box-solid.box-success>.box-header {
+    color: #fff;
+      border: 1px solid #00c0ef00;
+    background: #faebd700;
+    box-shadow: 0 0px 0px rgba(0,0,0,.1);
+}
+
+.box.box-solid.box-success {
+        border: 1px solid #00c0ef00;
+    background: #faebd700;
+        box-shadow: 0 0px 0px rgba(0,0,0,.1);
+        margin-top: 3%;
+}
+
+.alert-warning, .bg-yellow, .callout.callout-warning, .label-warning, .modal-warning .modal-body {
+    background-color: #f39c1200!important;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+.small-box p {
+    font-size: 20px;
+}
+.small-box h3 {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    padding: 0;
+}
+
+
+.box-header .box-title, .box-header>.fa, .box-header>.glyphicon, .box-header>.ion {
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+        color: black;
+    font-size: 24px;
+      font-weight: bold;
+}
+
+#leaf1 {
+  transform: scale(-1, 1);
+}
+
+.box.box-solid>.box-header>.box-tools .btn {
+    border: 0;
+    box-shadow: none;
+    color: #33332e;
+    display: inline-flex;
+}
+
+
+
+
+#electric {margin-left: 25%; margin-right: 25%; width: 50%; text-align: center; font-size: 150px; font-weight: bold;}
+#vin1, #make, #model, #year1, #type1 {width: 50%; margin: auto; text-align: center; font-size: 30px; font-weight: bold;}
+
+#medallions, #count1, #prc1 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #d2bd12;
+    text-align: center;
+}
+
+#greens, #count2, #prc2 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #219e4a;
+    text-align: center;
+}
+
+ #fhvs,#count3, #prc3 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #8d8796;
+    text-align: center;
+}
+
+h3{
+  width: 40%;
+    margin: 15% auto;
+    font-size: 35px;
+  
+}
+
+#title1,#title2,#title3{
+    margin: 2% auto;
+    width: 50%;
+    text-align:center;
+    font-size: 35px;
+    font-weight: Bold;
+}
+
+#title0{
+
+    margin: auto;
+    width: 50%;
+    text-align:center;
+    font-size: 90px;
+    font-weight: Bold;
+    color: #9ecece69;
+    margin-bottom: 6%;
+
+}
+
+#title4, #title5, #title6 {
+    margin: 5% auto;
+    width: 50%;
+    text-align:center;
+    font-size: 35px;
+    font-weight: Bold;
+}
+
+#title4, #title5, #title6 {
+    margin: 5% auto;
+    width: 50%;
+    text-align:center;
+    font-size: 25px;
+    font-weight: Bold;
+}
+
+ #countOfVehs,#averageAge{
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    text-align:center;
+    font-size: 100px;
+    font-weight: Bold;
+    color: #51b76d;
+} 
+
+
+#countOfVehs1, #averageAge1 {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    text-align:center;
+    font-size: 130px;
+    font-weight: Bold;
+    color: #51b76d;
+}
+
+
+@media (max-width: 1000px){
+  #countOfVehs1, #averageAge1,#countOfVehs,#averageAge {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    text-align:center;
+    font-size: 70px;
+    font-weight: Bold;
+}
+
+#title0{
+
+    margin: auto;
+    width: 50%;
+    text-align:center;
+    font-size: 60px;
+    font-weight: Bold;
+    color: #9ecece69;
+    margin-bottom: 6%;
+
+}
+}
+
+
+@media (max-width: 500px){
+  #countOfVehs1, #averageAge1,#countOfVehs,#averageAge {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    text-align:center;
+    font-size: 40px;
+    font-weight: Bold;
+}
+#title0{
+
+    margin: auto;
+    width: 50%;
+    text-align:center;
+    font-size: 40px;
+    font-weight: Bold;
+    color: #9ecece69;
+    margin-bottom: 6%;
+
+}
+}
+  
